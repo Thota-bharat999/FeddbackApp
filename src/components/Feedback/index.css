@@ -1,0 +1,66 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-container {
+  background-color: '#ffffff';
+  width: 80%;
+  height: 100vh;
+  max-width: 1140px;
+  border-radius: 12px;
+  padding: 44px;
+}
+.feedback-heading {
+  font-family: 'Roboto';
+  font-size: 44px;
+  color: #0f172a;
+  font-weight: 700;
+  text-align: center;
+}
+.emojis-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.emojis-image {
+  height: 120px;
+  width: 120px;
+}
+.emojis-name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #0f172a;
+  font-weight: 400;
+  text-align: center;
+}
+.thank-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 1140px;
+  border-radius: 12px;
+  padding: 65px;
+  text-align: center;
+}
+.feedback {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #0f172a;
+  font-weight: 700;
+}
+.feedback-response {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0f172a;
+  font-weight: 400;
+}
